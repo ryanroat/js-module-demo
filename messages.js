@@ -1,5 +1,5 @@
 /* eslint-disable linebreak-style */
-import chalk from 'chalk';
+const chalk = require('chalk')
 
 const error = (msg) => {
   console.log(chalk.red(msg));
